@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Let's play a <span class="brand-color"> Luck</span> Game</h1>
+      <h2 class="winner"></h2>
+      <p class="lucky-number">Winning Score: <span>0</span></p>
+      <p class="players">
+        Player-1: <span class="p1">0</span> Player-2: <span class="p2">0</span>
+      </p>
+      <div class="input">
+        <form>
+          <input type="text" class="form-input-text" id="luck-input" />
+          <input class="btn-deep" type="submit" value="Submit" />
+          <input class="btn-danger" type="button" value="Reset" id="resetBtn" />
+        </form>
+      </div>
+      <div>
+        <button class="p1Btn btn-primary">Player 1</button>
+        <button class="p2Btn btn-secondary">Player 2</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
